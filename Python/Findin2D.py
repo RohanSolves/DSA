@@ -7,8 +7,8 @@ def findIn2D(arr, target):
         return False
     n = len(arr[0])  # total number of columns in 2D-array
 
-    left = 0
-    right = m*n - 1
+    left = 0            # initial position of array
+    right = m*n - 1     # final position of the array
 
     while (left <= right):
        mid = left + (right - left) // 2
