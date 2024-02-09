@@ -10,7 +10,7 @@ def binarySum(arr, target):
             left = left + 1
     return -1, -1
 
-arr = [22, 24, 6, 18, 10, 12, 14]
-target = 32
+arr = [3,2,4]
+target = 6
 result = binarySum(arr, target)
 print(result)
